@@ -1,0 +1,125 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  
+Updated: 
+Notes:	 
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+footer{
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+}
+   
+   
+   
+   
+   
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+.well .page-header {
+	margin-top: 0;
+}
+.well .page-header h1 {
+	margin-top: 0;
+}
+
+ul.unstyled {
+	list-style: none;
+	padding: 0;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+   #searchInput{width: 200px;
+	   }
+	   
+	   .navbar-brand{
+		   padding:13px 15px;}
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   
+  #myCarousel{margin-top:130px;}
+	   
+	  Carousel-caption{font-size: 24px;}
+	  Carousel-caption h4{font-size: 32px;}
+   
+   
+#myCarousel .item {height : 400px;}
+
+#slide1 {
+background: url('../../images/m1.jpg') top center no-repeat;}
+#slide2 {
+background: url('../../images/c1.jpg') top center no-repeat;}
+#slide3 {
+background: url('../../images/l.jpg') top center no-repeat;}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+	
+	#myCarousel.item {height : 310px;}
+
+#slide1 {
+background: url('../../images/m1.jpg') top center no-repeat;}
+#slide2 {
+background: url('../../images/c1.jpg') top center no-repeat;}
+#slide3 {
+background: url('../../images/l.jpg') top center no-repeat;}
+
+
+Carousel-caption{font-size: 16px;}
+	  Carousel-caption h4{font-size: 22px;}
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+	#myCarousel.item {height : 500px;}
+
+#slide1 {
+background: url('../../images/m1.jpg') top center no-repeat;}
+#slide2 {
+background: url('../../images/c1.jpg') top center no-repeat;}
+#slide3 {
+background: url('../../images/l.jpg') top center no-repeat;}
+
+	
+}
+.content1
+{
+	padding-top:140px;
+}
